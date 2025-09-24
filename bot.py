@@ -30,8 +30,8 @@ os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
  
 # === Config ===
 PDF_PATHS = [
-    "/Users/rohansridhar/Desktop/Bot/AI-Services.pdf",
-    "/Users/rohansridhar/Desktop/Bot/ChatDoc.pdf"
+    "AI-Services.pdf",
+    "ChatDoc.pdf"
 ]
 PERSIST_DIR = "/Users/rohansridhar/Desktop/Bot/vector_store"
 COMPANY_EMAIL = "sales@codework.ai"
