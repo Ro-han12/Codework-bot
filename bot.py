@@ -133,10 +133,10 @@ def get_conversational_rag_chain(retriever_chain):
         timeout=10,  # Reduced timeout
         request_timeout=10
     )
-    fallback = "I don't have that information. Please contact support at sales@codework.ai or feel free to reach us at +91 75989 81500"
+    fallback = "We don't have that information. Please contact support at sales@codework.ai or feel free to reach us at +91 75989 81500"
     prompt = ChatPromptTemplate.from_messages([
         ("system",
-         "CodeWork assistant. Use context only. Be brief. 1-2 sentences max. "
+         "You are CodeWork's assistant. Respond as 'we at CodeWork' when discussing services. Use context only. Be brief. 1-2 sentences max. "
          f"Unknown: '{fallback}'\n\nContext:\n{{context}}"),
         MessagesPlaceholder(variable_name="chat_history"),
         ("user", "{input}")
