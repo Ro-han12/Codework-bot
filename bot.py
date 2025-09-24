@@ -33,7 +33,7 @@ PDF_PATHS = [
     "AI-Services.pdf",
     "ChatDoc.pdf"
 ]
-PERSIST_DIR = "/Users/rohansridhar/Desktop/Bot/vector_store"
+PERSIST_DIR = "vector_store"
 COMPANY_EMAIL = "sales@codework.ai"
 COMPANY_PHONE = "+91 75989 81500"
  
