@@ -1,0 +1,6 @@
+streamlit 
+langchain-openai 
+llama-index 
+python-dotenv 
+chromadb 
+llama-index-retrievers-bm25
